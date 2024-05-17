@@ -1,0 +1,51 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  height: 100%;
+  width: 100%;
+ 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+
+}
+.main-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  border: solid;
+  gap: 20px; 
+  user-select: none;
+  overflow: hidden;
+}
+.sound-box {
+  cursor: pointer;
+  height: 120px ;
+  width: 120px; 
+
+  border-radius: 10px;
+  text-align: center;
+  line-height:60px ;
+  font-size: 2rem;
+   font-weight: bold;
+   font-family: cursive;
+   color: white;
+   z-index: 1;
+     border: solid 2px #000;
+}
+.sound-box:hover{
+   box-shadow: rgb(243, 238, 238) 0px 7px 50px 0px;
+}
+.sound-name {
+  font-size: 20px;
+}
+
+.music-on {
+  scale: 1.1;
+  background-color: yellow;
+}

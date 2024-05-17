@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main-box">
+      <img style="width: 100%; position: absolute; height: 100vh; object-fit: cover;" src="./images/pexels-thepaintedsquare-583843.jpg" alt="">
+      <div class="sound-box 65"  onclick="palyMusic('65')" > <p>A</p><p class="sound-name">boom</p> </div>
+      <div class="sound-box 83"  onclick="palyMusic('83')"  keyCode()> <p>S</p><p class="sound-name">clap</p> </div>
+      <div class="sound-box 68"  onclick="palyMusic('68')" > <p>D</p><p class="sound-name">hihat</p> </div>
+      <div class="sound-box 70"  onclick="palyMusic('70')" > <p>F</p><p class="sound-name">kick</p> </div>
+      <div class="sound-box 71"  onclick="palyMusic('71')" > <p>G</p><p class="sound-name">openhat</p> </div>
+      <div class="sound-box 72"  onclick="palyMusic('72')" > <p>H</p><p class="sound-name">ride</p> </div>
+      <div class="sound-box 74"  onclick="palyMusic('74')" > <p>J</p><p class="sound-name">snare</p> </div>
+      <div class="sound-box 75"  onclick="palyMusic('75')" > <p>K</p><p class="sound-name">tink</p> </div>
+      <div class="sound-box 76"  onclick="palyMusic('76')" > <p>L</p><p class="sound-name">tom</p> </div>
+    </div>
+    <audio id="65" src="./sound/boom.wav" ></audio>
+    <audio id="83" src="./sound/clap.wav"></audio>
+    <audio id="68" src="./sound/hihat.wav"></audio>
+    <audio id="70" src="./sound/kick.wav"></audio>
+    <audio id="71" src="./sound/openhat.wav"></audio>
+    <audio id="72" src="./sound/ride.wav"></audio>
+    <audio id="74" src="./sound/snare.wav"></audio>
+    <audio id="75" src="./sound/tink.wav"></audio>
+    <audio id="76" src="./sound/tom.wav"></audio>
+    <script src="app.js"></script>
+  </body>
+</html>
