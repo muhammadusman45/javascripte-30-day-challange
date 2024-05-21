@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --blur: 1px;
+    --padding: 10px;
+    --bg-color :#f6fa05 ;
+}
+body{
+    background-color: black;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.image img {
+    width: 50%;
+    background: var(--bg-color);
+    padding: var(--padding);
+    filter: blur(var(--blur));
+}
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+   font-family:'Courier New', Courier, monospace;
+   font-size: 3rem;
+   color: #fff;
+}
+.js-word{
+   color:var(--bg-color);
+}
